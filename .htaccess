@@ -1,0 +1,5 @@
+# এটি সব রিকোয়েস্টকে index.php তে পাঠাবে
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L,QSA]
