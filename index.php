@@ -20,7 +20,7 @@ $safe_url = htmlspecialchars($final_destination, ENT_QUOTES, 'UTF-8');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>BLOOD DONATION  - Live</title>
+    <title>BLOOD DONATION - Live</title>
     <style>
         /* ফুল স্ক্রিন ভিউ সেটআপ */
         body, html { 
